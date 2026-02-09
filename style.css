@@ -49,15 +49,20 @@
 
 /* HERO */
 .hero {
+  width: 100%;
+  padding: 60px 68px 0;
+}
+
+.hero-container {
   display: flex;
-  justify-content: space-between;
-  margin: 60px 68px 0 68px;
-  gap: 50px;
   align-items: center;
+  justify-content: space-between;
+  gap: 80px;
 }
 
 .hero-left {
   flex: 1;
+  max-width: 620px;
 }
 
 .hero-left h1 {
@@ -89,11 +94,15 @@
 
 .hero-right {
   flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 120px;
 }
 
 .hero-right img {
   width: 100%;
-  max-width: 500px;
+  max-width: 600px;
+  height: auto;
 }
 
 /* BRANDS */
